@@ -6,7 +6,6 @@ int => sug => not use sudo in global dependency=>
 
 ## rethut => reference types => ts array => third[] => union => tuple
 
-
-
+## !n! einlim => expplicit =>implicit=> intersection => literal =>modifier =>
 
 

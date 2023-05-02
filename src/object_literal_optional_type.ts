@@ -1,4 +1,7 @@
 // !fi! 
+
+//  !n! einlim => expplicit =>implicit=> intersection => literal =>modifier =>
+
 // ! implicit type 
 const profile = {
     name: 'shah',
@@ -13,7 +16,7 @@ const profile = {
 const prof2: {
     name: string,
     age: number,
-    profession: 'student',
+    profession: 'student',  // ! literal type 
     isMarried: false,
     wifeName?: string // !n! Intersection of an object's value types in TypeScript
 } = {
@@ -24,8 +27,14 @@ const prof2: {
     name: 'shah'
 }
 
-const car: { type: string, model: string, year: number } = {
+const car: {
+    readonly type: string,  // !n!  readonly is  modifiers
+    model: string,
+     year: number
+     } = {
     type: "Toyota",
     model: "Corolla",
     year: 2009
 }
+
+
