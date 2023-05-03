@@ -1,4 +1,6 @@
 // !n! type alias 
+// ! tavt => type =>variable => type explicit 
+
 type multiply = (x:number, y:number) => number;
 
 const sqr = (n1:number, n2:number, task:(x:number, y:number)=>number) =>  {
