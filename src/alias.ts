@@ -36,7 +36,7 @@ const car2: Car = {
 // !n! interfaces
 
 interface Rectangle {
-    height: number,
+    height: number, 
     width: number
 }
 
