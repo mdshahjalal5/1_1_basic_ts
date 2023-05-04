@@ -1,6 +1,6 @@
 // !n! nun => nul un ne => null unknown never 
 // ! null 
-const searchName = (value: string | null) => {
+const searchName = (value: string | null):void => {
     if (value === null) {
         console.log("There is nothing to search");
     } else {
