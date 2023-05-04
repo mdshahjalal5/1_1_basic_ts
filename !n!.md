@@ -1,4 +1,7 @@
 own syntax:!fi!, !n! 
+it => ivreb => tun 
+int => variaable => array => object
+tun => type alias => uinum => nun 
 1/2-1 Installation typescript , nvm & ts-node-dev
 int => sug => not use sudo in global dependency=> 
 
@@ -7,17 +10,7 @@ int => sug => not use sudo in global dependency=>
 ## rethut => reference types => ts array => third[] => union => tuple
 
 ## !n! einlim => expplicit =>implicit=> intersection => literal =>modifier =>
-
-
-Command 'dotnet' not found, but c
-an be installed with:            sudo snap install dotnet-sdk   # 
-version 7.0.203, or              sudo apt  install dotnet-host  # 
-version 6.0.116-0ubuntu1~22.04.1 See 'snap info dotnet-sdk' for ad
-ditional versions.               
-
-
-
-
+## // !n! nun => nul un ne => null unknown never 
 
 
 ## order according to the importance:-
@@ -29,3 +22,4 @@ ditional versions.
 git add . 
 git commit -m"done"
 git push 
+
