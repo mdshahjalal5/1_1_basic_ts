@@ -1,9 +1,10 @@
 // !n! nun => nul un ne => null unknown never 
-// ! nev=> never void => un in =>  unknown implicit any
+
+// ! nev ni  => ni =>  unknown and  any diff nev=> never void => un in =>  unknown implicit any
 // ! null 
 const searchName = (value: string | null):void => {
     if (value === null) {
-        console.log("There is nothing to search");
+        console.log("There is nothing to search");  
     } else {
         console.log("Searching...");
     }
@@ -27,6 +28,10 @@ const getMyCarSpeed = (speed: unknown) => {
         console.log("There is wrong type");
     }
 };
+const str = 'lorem phs'
+str.split(' ')
+const str2:any =  'them '
+str2.join()
 
 getMyCarSpeed(10);
 getMyCarSpeed("10 kmh^-1"); // 10 kmh-1
@@ -38,3 +43,8 @@ function throwError(message: string): never {
 }
 
 throwError("Bhai bhai error hyeche , kandi dimu");
+
+
+
+
+

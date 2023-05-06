@@ -1,3 +1,4 @@
+
 own syntax:!fi!, !n! 
 it => ivreb => tun 
 int => variaable => array => object
