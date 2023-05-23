@@ -11,9 +11,9 @@ const tuple:[number, boolean, string, null] = [3, true, 'ia', null]
 
 const tuple2:[number, boolean] = [9, true]
 
-// !n! ts union
 
-const union = [3, 'string', null] 
+// !n! ts union
+const union:[number| string | '3'] = [3, ] 
 
 union[0] = 9;
 

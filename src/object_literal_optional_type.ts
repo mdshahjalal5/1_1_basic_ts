@@ -1,4 +1,4 @@
-// !fi! 
+//  !fi! 
 
 //  !n! einlim => expplicit =>implicit=> intersection => literal =>modifier =>
 
@@ -36,5 +36,10 @@ const car: {
     model: "Corolla",
     year: 2009
 }
+
+car.year = 3000 //? !n! we can modify year cuase it's not readonly type 
+
+car.type = 'bmw' //? !n!  Cannot assign to 'type' because it is a read-only property.
+
 
 

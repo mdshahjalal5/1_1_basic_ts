@@ -35,7 +35,7 @@ const per = {
 
 
 // !n! void  // void indicates the function does not return value
-function greet(name: string): void {
+function greet5(name: string): void {
     console.log(`Hello, ${name}!`);
 }
 

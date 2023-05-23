@@ -1,6 +1,7 @@
-// !n! nun => nul un ne => null unknown never 
+ // !n! nun => nul un ne => null unknown never 
 
-// ! nev ni  => ni =>  unknown and  any diff nev=> never void => un in =>  unknown implicit any
+// ! nev ni  =>nev=> never void=>  
+// ? ni => ni un =>  any unknown> =>   unknown implicit any
 // ! null 
 const searchName = (value: string | null):void => {
     if (value === null) {
