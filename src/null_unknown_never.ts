@@ -31,14 +31,20 @@ const getMyCarSpeed = (speed: unknown) => {
 };
 const str = 'lorem phs'
 str.split(' ')
-const str2:any =  'them '
-str2.join()
+const str2:unknown=  'them '
+
+if(Array.isArray(str)) {
+
+    str2.slice() // ?q! what do type unknown 
+}
 
 getMyCarSpeed(10);
 getMyCarSpeed("10 kmh^-1"); // 10 kmh-1
 getMyCarSpeed(true);
 
 //  !n! never // the function never return anything // can't we use void // why never 
+
+// ?q! why never we can use void
 function throwError(message: string): never {
     throw new Error(message);
 }
