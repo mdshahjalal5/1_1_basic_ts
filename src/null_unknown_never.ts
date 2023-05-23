@@ -33,8 +33,7 @@ const str = 'lorem phs'
 str.split(' ')
 const str2:unknown=  'them '
 
-if(Array.isArray(str)) {
-
+if(Array.isArray(str2)) {
     str2.slice() // ?q! what do type unknown 
 }
 
