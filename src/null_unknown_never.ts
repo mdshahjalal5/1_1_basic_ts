@@ -34,6 +34,7 @@ str.split(' ')
 const str2:unknown=  'them '
 
 if(Array.isArray(str2)) {// ? unknown first check the type if ok then execute the function(per)(perhaps)
+    
     str2.slice() // ?q! what do type unknown 
 }
 
