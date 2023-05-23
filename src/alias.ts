@@ -1,5 +1,5 @@
 // !n! type alias 
-// ! tavt => type =>variable => type explicit 
+// ! tant => type =>name of type  => type explicit 
 
 type multiply = (x:number, y:number) => number;
 
