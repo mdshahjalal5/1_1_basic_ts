@@ -3,6 +3,9 @@
 
 type multiply = (x:number, y:number) => number;
 
+
+// ?imp!  this type function I never used 
+
 const sqr = (n1:number, n2:number, task:(x:number, y:number)=>number) =>  {
     return task(n1, n2,)
 }
