@@ -34,7 +34,7 @@ str.split(' ')
 const str2:unknown=  'them '
 
 if(Array.isArray(str2)) {// ? unknown first check the type if ok then execute the function(per)(perhaps)
-    
+
     str2.slice() // ?q! what do type unknown 
 }
 
@@ -45,6 +45,9 @@ getMyCarSpeed(true);
 //  !n! never // the function never return anything // can't we use void // why never 
 
 // ?q! why never we can use void
+
+// ? never means it not return and also throw an error or may occur infinite loop => void not return but not throw error 
+
 function throwError(message: string): never {
     throw new Error(message);
 }
