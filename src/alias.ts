@@ -14,13 +14,8 @@ const res = sqr(3,5, (x, y ) => x * y)
 console.log(res , '"res"')
 type Multiply = (x: number, y: number) => number;
 
-function into(p1: number, p2: number, work: Multiply): number {
-  return work(p1, p2);
-}
 
 
-
- const intores = into(4, 5)
 
 // !n! type alias
  type CarYear = number
