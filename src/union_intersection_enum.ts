@@ -44,5 +44,5 @@ enum Color {
 
 let favoriteColor: Color = Color.Blue;
 var anotherColor:Color = Color.Green
-
 console.log("My favorite color is " + Color[favoriteColor]);
+const read:Color = Color.Red;
