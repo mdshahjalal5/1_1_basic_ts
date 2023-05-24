@@ -49,3 +49,11 @@ const read:Color = Color.Red;
 
 const red = Color[read] 
 console.log("this is color of" ,red);
+
+enum prof {
+    student, 
+    teacher, 
+    unemployed
+}
+
+let prof:prof =prof.teacher;
