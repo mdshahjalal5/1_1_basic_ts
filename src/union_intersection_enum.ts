@@ -56,4 +56,13 @@ enum prof {
     unemployed
 }
 
-let prof:prof =prof.teacher;
+let profession:prof =prof.teacher;
+let proof = prof[profession]
+console.log(proof);
+
+const relation = prof[profession] === "teacher" ? `He is my ${prof[profession]}` : `He is not my ${prof[profession]}`
+
+console.log(relation);
+
+
+
