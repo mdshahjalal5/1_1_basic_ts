@@ -48,4 +48,4 @@ console.log("My favorite color is " + Color[favoriteColor]);
 const read:Color = Color.Red;
 
 const red = Color[read] 
-console.log(red);
+console.log("this is color of" ,red);
