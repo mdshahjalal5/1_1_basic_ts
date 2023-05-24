@@ -50,6 +50,8 @@ const read:Color = Color.Red;
 const red = Color[read] 
 console.log("this is color of" ,red);
 
+// ? 5/24/2023, 6:44:14 AM (revised )
+
 enum prof {
     student, 
     teacher, 
