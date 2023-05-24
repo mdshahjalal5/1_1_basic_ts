@@ -14,9 +14,6 @@ const res = sqr(3,5, (x, y ) => x * y)
 console.log(res , '"res"')
 type Multiply = (x: number, y: number) => number;
 
-
-
-
 // !n! type alias
  type CarYear = number
 type CarType = string
