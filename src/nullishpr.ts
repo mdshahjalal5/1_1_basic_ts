@@ -26,3 +26,18 @@ type valueType = null | undefined | '' | 'ismai'
 let valueType:valueType = 'ismai'
 
 
+
+
+// ? 5/28/2023, 8:37:02 AM 5/28/2023, 8:37:03 AM 5/28/2023, 8:37:03 AM 5/28/2023, 8:37:03 AM 5/28/2023, 8:37:03 AM 5/28/2023, 8:37:03 AM 
+
+
+// ! n! if inputSomething is null | undefined then checkInput value is "no input" 
+const inputSomething:unknown =null;
+const checkInput = inputSomething ?? "No input";
+console.log(checkInput);
+
+
+// !n! if inputSomething2 is not null | undefined then checkInput value will be the inputSomething value
+const inputSomething2: unknown = 'its not null or undefined';
+const checkInput2 = inputSomething2 ?? "No input";
+console.log(checkInput2);
