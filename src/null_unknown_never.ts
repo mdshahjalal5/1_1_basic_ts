@@ -46,7 +46,7 @@ getMyCarSpeed(true);
 // ?q! why never we can use void
 //  !n! never // the function never return nothing // can't we use void // why never??,, never used when function doesn't return any value and we are already known that the function will throw any error, or for the puspose of error handling we use never type function
 
-// ? never means it not return and also throw an error or may occur infinite loop => void not return but not throw error
+// . ? never means it not return and also throw an error or may occur infinite loop => void not return but not throw error
 
 function throwError(message: string): never {
   throw new Error(message);
