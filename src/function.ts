@@ -43,4 +43,4 @@ function greet5(name: string): void {
 }
 
 console.log("chk");
-/mnt/fed/web2/1ts/2_Basic_type_of_ts_parent/10BasicTypeOfTs/package.json
+
