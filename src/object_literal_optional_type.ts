@@ -28,7 +28,7 @@ const prof2: {
 };
 
 const car: {
-  readonly type: string; // !n!  readonly is  modifiers
+  readonly type: string; // !n!  readonly is  not can be modified, it can only read
   model: string;
   year: number;
 } = {
