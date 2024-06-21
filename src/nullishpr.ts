@@ -1,11 +1,9 @@
 // !n! nullish coelescing 
 
-// !n!  if value is null | undefined it will behave like true in ternary  operator
-
 const od:null | undefined | string = '';
-const ev = od??"odvalue" // ?n?  here od value is not null|undefined so "ev"  value not accept "odvalue" 
+const ev = od??"odvalue" // ?n?  here od's value is not null|undefined so "ev"'s  value not accept "odvalue" 
 
-console.log(ev, '"od"');
+// console.log(ev, '"od"');
 
 const is_buetian: undefined |boolean |string |null=null
 const nullish = is_buetian?? "yes buetian" 
@@ -40,4 +38,4 @@ console.log(checkInput);
 // !n! if inputSomething2 is not null | undefined then checkInput value will be the inputSomething value
 const inputSomething2: unknown = 'its not null or undefined';
 const checkInput2 = inputSomething2 ?? "No input";
-console.log(checkInput2);
+console.log(checkInput2); //?ts not null or undefined'

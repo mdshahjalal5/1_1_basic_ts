@@ -12,10 +12,12 @@ const tuple:[number, boolean, string, null] = [3, true, 'ia', null]
 const tuple2:[number, boolean] = [9, true]
 
 
-// !n! ts union
-const union:[number| string | '3'] = [3, ] 
+const arr:number[] = [1, 3,5, 7, 9, 11, 13, 15, ]
 
-union[0] = 9;
+// !n! ts union
+const union:[number| string | 3] = [3, ] 
+
+union[0] = true;
 
 
 

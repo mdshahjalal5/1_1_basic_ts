@@ -45,4 +45,4 @@ const rectangle: Rectangle = {
     width: 10
 };
 
-// fdasdf
+

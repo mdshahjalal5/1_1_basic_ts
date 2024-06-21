@@ -43,7 +43,7 @@ enum Color {
 }
 
 let favoriteColor: Color = Color.Blue;
-var anotherColor:Color = Color.Green
+
 console.log("My favorite color is " + Color[favoriteColor]);
 const read:Color = Color.Red;
 
@@ -65,6 +65,4 @@ console.log(proof);
 const relation = prof[profession] === "teacher" ? `He is my ${prof[profession]}` : `He is not my ${prof[profession]}`
 
 console.log(relation);
-
-
 
