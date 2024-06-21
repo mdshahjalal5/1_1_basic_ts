@@ -11,7 +11,11 @@
   "name": "1_basic_type_of_typescript",
   "scripts": {
     "start": "ts-node-dev --respawn --transpile-only ./src/test.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --respawn --transpile-only"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "devDependencies": {
+    "typescript": "^5.5.2"
+  }
 }
