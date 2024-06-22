@@ -16,4 +16,11 @@ var aliasing = {
 const { age: nameAlias } = aliasing;
 console.log(nameAlias, '"nameAlias"');
 const name93 = "shahjaall ";
+
+const checkRestPara = (...paras: string[] | number[] | boolean[]) => {
+  paras.map((v, i, a) => {
+    console.log(v, i, a, "v, i, ami shahjalal ");
+  });
+};
+const outputCheckRest = checkRestPara(3, 4, 5, 6, 7);
 export default cube;
