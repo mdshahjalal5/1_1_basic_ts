@@ -15,5 +15,5 @@ var aliasing = {
 
 const { age: nameAlias } = aliasing;
 console.log(nameAlias, '"nameAlias"');
-
+const name93 = "shahjaall ";
 export default cube;
