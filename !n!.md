@@ -13,4 +13,4 @@ nt => sug => not use sudo in global dependency=>
 
 ## !n! einlim => expplicit =>implicit=> intersection => literal =>modifier =>
 
-## // !n! nun => nul un ne => null unknown never
+### // !n! nun => nul un ne => null unknown never
