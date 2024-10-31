@@ -1,5 +1,5 @@
-console.log("ami shaha ")
-
+/* console.log("ami shaha ")
+*/
 enum Direction {
     Up,
     Down,

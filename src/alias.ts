@@ -1,5 +1,5 @@
 // !n! type alias
-// ! tant => type =>name of type  => type explicit
+// ! gnag => glcr =>anzr bs glcr  => glcr rkcyvpvg
 
 type multiply = (x: number, y: number) => number;
 

@@ -13,4 +13,6 @@ nt => sug => not use sudo in global dependency=>
 
 ## !n! einlim => expplicit =>implicit=> intersection => literal =>modifier =>
 
+jklamnopqrstuvstststsstststleleeleljlmlmlqstststsysysAssalamu alaikum, Ami shahjalal, Assalamu alaikum, Ami shahjalal, yj
+
 ### // !n! nun => nul un ne => null unknown never
