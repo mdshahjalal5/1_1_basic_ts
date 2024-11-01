@@ -1,5 +1,7 @@
 again web dev start after hsc 23/03/2024 Sat 09:10:11 AM again start after fedora set up 12/06/2024, 06:35 am
 
+## 01/11/2024 07:00 AM Fri GMT+6 Sharifpur, Gazipur, Dhaka L2B4 started again trying to be a great developer
+
 own syntax:!fi!, !n!
 it => ivreb => tun
 int => variaable => array => object
