@@ -1,4 +1,4 @@
-// !n! nullish coelescing
+// !n# nullish coelescing
 
 const od: null | undefined | string = null;
 const ev = od ?? "odvalue"; // ?n?  here od's value is not null|undefined so "ev"'s  value not accept "odvalue"

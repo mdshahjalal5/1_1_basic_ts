@@ -1,6 +1,6 @@
 // !fi!
-//! tan =>  terneray operator and nullish coeslancing operator 
-//ternary operator
+//t tan =>  terneray operator and nullish coeslancing operator
+//t:ernary operator
 const age: number = 15;
 
 if (age >= 18) {
@@ -10,13 +10,13 @@ if (age >= 18) {
 }
 
 const isAdult = age >= 18 ? " Yes" : "No";
- console.log(isAdult); // "No"
+console.log(isAdult); // "No"
 
 // Nullish Coalesnace Operator
 // Null and Undefined
 
 const isAuthenticatedUser = null;
-// !n! if the username null & undefined then userName will be Guest 
+// !n! if the username null & undefined then userName will be Guest
 const userName = isAuthenticatedUser ?? "Guest";
 const userName2 = isAuthenticatedUser ? isAuthenticatedUser : "Guest";
 
@@ -38,7 +38,7 @@ const manush1: Manush = {
   address: {
     city: "NO City",
     road: "No Road",
-    home:null,
+    home: null,
   },
 };
 

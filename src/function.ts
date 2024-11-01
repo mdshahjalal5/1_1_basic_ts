@@ -9,7 +9,7 @@ function sum2(n1: number, n2: number): number {
   return n1 + n2;
 }
 
-// const sumArrow = (n1:number, n2:number //!parameter type ):number // ! return type => n1 + n2;
+// const sumArrow = (n1:number, n2:number //t:parameter type ):number // ! return type => n1 + n2;
 const sumArrow = (n1: number, n2: number): number => n1 + n2;
 
 const numArray = [1, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -43,4 +43,3 @@ function greet5(name: string): void {
 }
 
 console.log("chk");
-

@@ -21,7 +21,7 @@ const prof2: {
   wifeName?: string; // !n! optional type  of an object in TypeScript
 } = {
   age: 3,
-  // ! profession:'students',  //! [ts] Type '"students"' is not assignable to type '"student"'.
+  // ! profession:'students',  //t: [ts] Type '"students"' is not assignable to type '"student"'.
   profession: "student",
   isMarried: false,
   name: "shah",

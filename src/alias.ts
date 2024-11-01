@@ -1,9 +1,9 @@
-// !n! type alias
-// ! gnag => glcr =>anzr bs glcr  => glcr rkcyvpvg
+//t: !n! type alias
+//t: ! gnag => glcr =>anzr bs glcr  => glcr rkcyvpvg
 
 type multiply = (x: number, y: number) => number;
 
-// ?imp!  this type function I never used
+//t: ?imp!  this type function I never used
 
 const sqr = (
   n1: number,
@@ -37,7 +37,7 @@ const car2: Car = {
   model: carModel,
 };
 
-// !n! interfaces
+//t: !n! interfaces2
 
 interface Rectangle {
   height: number;
