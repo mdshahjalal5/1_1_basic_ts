@@ -18,7 +18,7 @@ console.log(res, '"res"');
 
 type Multiply = (x: number, y: number) => number;
 
-// !n! type alias
+//t: !n! type alias
 type CarYear = number;
 type CarType = string;
 type CarModel = string;
@@ -48,3 +48,12 @@ const rectangle: Rectangle = {
   height: 20,
   width: 10,
 };
+const mapArray2 = (
+  arr: number[],
+  operation: (x: number) => number,
+): number[] => {
+  return arr.map(operation);
+};
+
+const doubledArray = mapArray([1, 2, 3, 4], (x) => x * 2);
+console.log(doubledArray, "doubledArray"); // Outputs: [2, 4, 6, 8]
